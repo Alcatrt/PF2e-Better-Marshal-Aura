@@ -1,7 +1,7 @@
 {    
-    "title": "PF2e Better Martial Dedication Aura",
-    "description": "Just a little thing to automate things like Dread Martial Stance",
-    "__url__": "",
+    "title": "PF2e Better Marshal Dedication",
+    "description": "Just a little thing to automate things like Dread Marshal Stance",
+    "url": "https://github.com/Alcatrt/PF2e-Better-Marshal-Dedication",
     "version": "0.1",
     "packs": [
         {
@@ -16,7 +16,7 @@
     ],
     "__manifest__": "",
     "__download__": "",
-    "id": "pf2e-better-martial-aura",
+    "id": "pf2e-better-marshal-dedication",
     "compatibility": {
         "minimum": "10.291",
         "verified": "10.291"
