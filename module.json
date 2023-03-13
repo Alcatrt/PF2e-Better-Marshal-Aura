@@ -1,0 +1,42 @@
+{    
+    "title": "PF2e Better Martial Dedication Aura",
+    "description": "Just a little thing to automate things like Dread Martial Stance",
+    "__url__": "",
+    "version": "0.1",
+    "packs": [
+        {
+            "label": "BMD Feats",
+            "name": "BMD-Feats",
+            "path": "packs/bmd-feats.db",
+            "system": "pf2e",
+            "private": false,
+            "type": "item",
+            "flags": {}
+        }
+    ],
+    "__manifest__": "",
+    "__download__": "",
+    "id": "pf2e-better-martial-aura",
+    "compatibility": {
+        "minimum": "10.291",
+        "verified": "10.291"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "4.9.1"
+                }
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alcatrt",
+            "flags": {}
+        }
+    ]
+}
