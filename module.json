@@ -14,8 +14,8 @@
             "flags": {}
         }
     ],
-    "__manifest__": "",
-    "__download__": "",
+    "manifest": "https://raw.githubusercontent.com/Alcatrt/PF2e-Better-Marshal-Dedication/master/module.json",
+    "download": "https://github.com/Alcatrt/PF2e-Better-Marshal-Dedication/archive/refs/heads/main.zip",
     "id": "pf2e-better-marshal-dedication",
     "compatibility": {
         "minimum": "10.291",
