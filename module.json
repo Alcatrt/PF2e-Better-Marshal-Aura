@@ -1,51 +1,39 @@
-{    
-    "title": "PF2e Better Marshal Dedication",
+{
+    "name": "pf2e-better-marshal-aura",
+    "title": "PF2e Better Marshal Aura",
+    "author": "Alcatrt",
     "description": "Just a little thing to automate things like Dread Marshal Stance",
-    "url": "https://github.com/Alcatrt/PF2e-Better-Marshal-Dedication",
-    "version": "0.1",
     "packs": [
         {
-            "label": "BMD Feats",
-            "name": "BMD-Feats",
-            "path": "packs/bmd-feats.db",
+            "name": "bma-feats",
+            "label": "BMA Feats",
+            "type": "Item",
             "system": "pf2e",
-            "private": false,
-            "type": "item",
-            "flags": {}
+            "path": "packs/bma-feats.db",
+            "entity": "Item",
+            "module": "pf2e-better-marshal-aura"
         },
         {
-            "label": "BMD Effects",
-            "name": "BMD-Effects",
-            "path": "packs/bmd-effects.db",
+            "name": "bma-effects",
+            "label": "BMA Effects",
+            "type": "Item",
             "system": "pf2e",
-            "private": false,
-            "type": "item",
-            "flags": {}
+            "path": "packs/bma-effects.db",
+            "entity": "Item",
+            "module": "pf2e-better-marshal-aura"
         }
     ],
-    "manifest": "https://raw.githubusercontent.com/Alcatrt/PF2e-Better-Marshal-Dedication/master/module.json",
-    "download": "https://github.com/Alcatrt/PF2e-Better-Marshal-Dedication/archive/refs/heads/main.zip",
-    "id": "pf2e-better-marshal-dedication",
-    "compatibility": {
-        "minimum": "10.291",
-        "verified": "10.291"
-    },
-    "relationships": {
-        "systems": [
-            {
-                "id": "pf2e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-                "compatibility": {
-                    "minimum": "4.9.1"
-                }
-            }
-        ]
-    },
+    "id": "pf2e-better-marshal-aura",
     "authors": [
         {
-            "name": "Alcatrt",
-            "flags": {}
+            "name": "Alcatrt"
         }
-    ]
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
+    },
+    "version": "1.1"
 }
