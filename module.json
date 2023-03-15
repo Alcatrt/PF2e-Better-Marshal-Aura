@@ -12,6 +12,15 @@
             "private": false,
             "type": "item",
             "flags": {}
+        },
+        {
+            "label": "BMD Effects",
+            "name": "BMD-Effects",
+            "path": "packs/bmd-effects.db",
+            "system": "pf2e",
+            "private": false,
+            "type": "item",
+            "flags": {}
         }
     ],
     "manifest": "https://raw.githubusercontent.com/Alcatrt/PF2e-Better-Marshal-Dedication/master/module.json",
