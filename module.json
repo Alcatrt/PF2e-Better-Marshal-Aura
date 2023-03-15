@@ -23,6 +23,8 @@
             "module": "pf2e-better-marshal-aura"
         }
     ],
+    "manifest": "https://raw.githubusercontent.com/Alcatrt/PF2e-Better-Marshal-Aura/master/module.json",
+    "download": "https://github.com/Alcatrt/PF2e-Better-Marshal-Aura/archive/refs/heads/main.zip",
     "id": "pf2e-better-marshal-aura",
     "authors": [
         {
